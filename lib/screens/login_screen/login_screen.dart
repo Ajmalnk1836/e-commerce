@@ -168,7 +168,7 @@ class CustomButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: SizedBox(
-        width: double.infinity,
+        width: 120,
         height: 50,
         child: ElevatedButton(
           onPressed: () {},

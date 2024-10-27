@@ -1,4 +1,5 @@
 import 'package:ecommerceapp/screens/bottom_navigation_screen/bottom_navigation.dart';
+import 'package:ecommerceapp/screens/cart/cart_screen.dart';
 import 'package:ecommerceapp/screens/login_screen/login_screen.dart';
 import 'package:ecommerceapp/screens/onboarding_screen/onboarding_screen.dart';
 import 'package:ecommerceapp/screens/prodcut_details_screen/product_details_screen.dart';
@@ -36,7 +37,8 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: PoductDetailsScreen()
+        home: CartScreen()
+        // PoductDetailsScreen()
         // BottomNavigation()
         // BottomNavigation()
         //LoginScreen()
