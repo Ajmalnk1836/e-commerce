@@ -1,4 +1,7 @@
+import 'package:ecommerceapp/screens/bottom_navigation_screen/bottom_navigation.dart';
+import 'package:ecommerceapp/screens/login_screen/login_screen.dart';
 import 'package:ecommerceapp/screens/onboarding_screen/onboarding_screen.dart';
+import 'package:ecommerceapp/screens/prodcut_details_screen/product_details_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,6 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           // This is the theme of your application.
@@ -32,6 +36,12 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const OnboardingScreen());
+        home: PoductDetailsScreen()
+        // BottomNavigation()
+        // BottomNavigation()
+        //LoginScreen()
+        //OnboardingScreen()
+
+        );
   }
 }
